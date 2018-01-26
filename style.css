@@ -64,12 +64,12 @@ body, html{
   
 .bgimg-2 {
     background-image: url("./assets/img_parallax2.jpg");
-    min-height: 400px;
+    min-height: 100%;
 }
  
 .bgimg-3 {
     background-image: url("./assets/img_parallax3.jpg");
-    min-height: 400px;
+    min-height: 100%;
 }
   
 .caption {
