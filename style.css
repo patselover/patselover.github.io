@@ -7,18 +7,6 @@ body, html{
     font-size: 1.1em;
 }
 
-#headerImg{
-    width: 100%;
-    background-color: #ffffff;
-}
-
-#headerImg img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: 4em;
-}
-
 #navBar{
     position: -webkit-sticky;
     position: sticky;
@@ -27,11 +15,11 @@ body, html{
     height: 3em;
     top:0%;
     left:0%;
-    text-align: center;
+    text-align: right;
     background-color: #ffffff;
     box-shadow: 0 .1em #ebebeb;
     z-index: 100;
-    align-items: center;
+    align-items: right;
 }
 
 #navBar div{
@@ -43,34 +31,6 @@ body, html{
 
 #container{
     height: 100%;
-}
-
-/* THIS IS COPIED FROM W3 SCHOOLS */
-/* –––––––––––––––––––––––––––––– */
-.bgimg-1, .bgimg-2, .bgimg-3 {
-    position: relative;
-    opacity: 0.65;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.bgimg-1 {
-    background-image: url("./assets/img_parallax.jpg");
-    min-height: 100%;
-}
-  
-.bgimg-2 {
-    background-image: url("./assets/img_parallax2.jpg");
-    min-height: 100%;
-}
- 
-.bgimg-3 {
-    background-image: url("./assets/img_parallax3.jpg");
-    min-height: 100%;
 }
   
 .caption {
@@ -96,8 +56,7 @@ h3 {
     font: 20px 'Roboto Light' , -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #111;
 }
-/* –––––––––––––––––––––––––––––– */
-/*     END OF W3 SCHOOLS COPY     */
+
 
 div .tile{
     position: relative;
