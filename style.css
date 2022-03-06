@@ -20,7 +20,6 @@ body, html{
 }
 
 #header-navBar{
-    position: -webkit-sticky;
     position: sticky;
     display: block;
     width: 100%;
@@ -41,16 +40,13 @@ body, html{
     margin-right: 1em;
 }
 
-#background-image{
-    background: url(./assets/background-image.jpg);
+#background-img{
+    background: url(/assets/background-image.jpg);
     position: relative;
-    /* opacity: 0.65; */
-    /* background-attachment: fixed; */
+    opacity: 0.65;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    /* -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain; */
     background-size: contain;
 }
 
