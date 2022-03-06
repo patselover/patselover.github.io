@@ -34,7 +34,7 @@ body, html{
     align-items: right;
 }
 
-#navBar div{
+#header-navBar div{
     position: relative;
     display: inline-block;
     margin-left: 1em;
