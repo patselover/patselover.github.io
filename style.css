@@ -41,42 +41,18 @@ body, html{
 }
 
 #background-img{
-    background: url(/assets/background-image.jpg);
-    position: relative;
-    opacity: 0.65;
+    background-image: url(/assets/background-image.jpg);
+    /* position: relative; */
+    /* opacity: 0.65; */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 
 #container{
     height: 100%;
 }
-  
-.caption {
-    position: absolute;
-    left: 0;
-    top: 50%;
-    width: 100%;
-    text-align: center;
-    color: #000;
-}
-  
-.caption span.border {
-    background-color: #9b9b9b;
-    color: #fff;
-    padding: 18px; 
-    font-size: 25px;
-    letter-spacing: 10px;
-}
-  
-h3 {
-    letter-spacing: 5px;
-    text-transform: uppercase;
-    color: #111;
-}
-
 
 div .tile{
     position: relative;
