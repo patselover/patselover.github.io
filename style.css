@@ -41,18 +41,17 @@ body, html{
     margin-right: 1em;
 }
 
-#background-image {
+#background-image{
+    background: url(./assets/background-image.jpg);
     position: relative;
-    opacity: 0.65;
-    background-attachment: fixed;
+    /* opacity: 0.65; */
+    /* background-attachment: fixed; */
     background-position: center;
     background-repeat: no-repeat;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    background-image: url("./assets/background-image.jpg");
-    min-height: 100%;
+    /* -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain; */
+    background-size: contain;
 }
 
 #container{
