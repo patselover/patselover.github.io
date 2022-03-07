@@ -33,6 +33,10 @@ body, html{
     align-items: right;
 }
 
+h3.section-header{
+    text-align: center;
+}
+
 #header-navBar div{
     position: relative;
     display: inline-block;
