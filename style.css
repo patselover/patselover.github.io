@@ -4,7 +4,7 @@ body, html{
     margin: 0;
     font-family: 'Roboto Light' , -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #fff;
-    font-size: 1.1em;
+    font-size: 1em;
 }
 
 #header-navBar{
@@ -54,17 +54,19 @@ div .tile{
     height: 50%;
 }
 
-#header-navBar a:link, a:visited, a:active{
+#header-navBar a:link, a:hover, a:active{
+    font-weight: bold;
     text-decoration: none;
-    color: #727272;
+    color: #fff;
+    cursor: grab;
+}
+
+#header-navBar a:visited{
+    text-decoration: none;
+    color: #fff;
     cursor: default;
 }
 
-#header-navBar a:hover{
-    text-decoration: none;
-    color: #727272;
-    cursor: default;
-}
 #footer{
     position: -webkit-sticky;
     position: sticky;
