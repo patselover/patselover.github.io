@@ -1,0 +1,110 @@
+{
+    "title" : "Patrick Selover",
+    "contact" : {
+        "local" : "San Francisco, CA",
+        "email" : "patselover@hey.com",
+        "phone" : "650-743-0547",
+        "linkedin" : "linkedin.com/in/patrickselover"
+    },
+    "summary" : {
+        "heading" : "Summary",
+        "value" : "Values-based leader and problem solver with 6+ years experience in product management and software development. Proven ability to lead cross-functional teams, manage stakeholders, and deliver products on time and under budget."
+    },
+    "work" : {
+        "heading" : "Work Experience",
+        "value" : [{
+            "workday" : [
+                {
+                "company" : "Workday",
+                "title" : "Senior Product Manager",
+                "start" : "November 2022",
+                "end" : "Present",
+                "points" : {
+                    "0" : "Lead product manager for Workday's add-on SKU Journeys, that enables >360 large, medium, and small enterprises to craft meaningful guided paths through complex professional and personal life transitions.",
+                    "1" : "Boosted SKU ACV by more than 86% over a 2-year period, with +$25M in annual revenue, by developing a comprehensive product strategy to position product as employee experience management leader",
+                    "2" : "Worked across research and design to define Insights-to-Action platform, to empower the Office of the CHRO with ROI insights across all of Workday's employee experience products",
+                    "3" : "Presented at quarterly business reviews sales and product usage metrics as well as meaningful insights and product recommendations to senior leadership"
+                }
+                },{
+                "company" : "Workday",
+                "title" : "Technical Product Manager",
+                "start" : "November 2020",
+                "end" : "November 2022",
+                "points" : {
+                    "0" : "Led a technical team that owned the transactional processing system leveraged by Workday and its application teams",
+                    "1" : "Led product strategy and feature development targeted at distributing and scaling transactional processing throughput of the system to well over 500 million transactions per hour per customer",
+                    "2" : "Spearheaded the redesign of Workday's single points of failure across its core architecture to improve efficiency and guarantee 99.7% uptime SLA for Workday's customers; saving Workday est. $30M+ annually"
+                }
+                },{
+                "company" : "Workday",
+                "title" : "Senior Associate Product Manager",
+                "start" : "November 2019",
+                "end" : "November 2020",
+                "points" : {}
+                },{
+                "company" : "Workday",
+                "title" : "Associate Product Manager",
+                "start" : "July 2018",
+                "end" : "November 2019",
+                "points" : {
+                    "0" : "Participated in Workday's Rotational Technical Product Management program, where I worked across the business to learn about different teams and product areas; spending time on the Workday Cloud Platform, People Experience and Object Management System teams"
+                }
+                }
+            ]
+        },{
+            "axa" : [
+                {
+                "company" : "AXA Investment Managers",
+                "title" : "Investment Platform Engineering Intern",
+                "start" : "June 2017",
+                "end" : "September 2017",
+                "points" : {
+                    "0" : "Created a suite of data visualizations for AXA Investment Managers' Investment Platform utilizing JavaScript, node and D3.js",
+                    "1" : "Partnered with direct manager to develop a dynamic web-based application for customers to understand the health of their portfolios",
+                    "2" : "Crafted data visualizations of neural network models for traders and analysts to better understand trade decisions and aid in active investment strategies"
+                }}
+            ]
+        },{
+            "nanoracks" : [
+                {
+                "company" : "Nanoracks LLC",
+                "title" : "Business Development Intern",
+                "start" : "June 2015",
+                "end" : "September 2015",
+                "points" : {
+                    "0" : "Generated and qualified hundreds of valuable leads for the VP of Business Development, many of which resulted in sales for the company.",
+                    "1" : "Developed deep understanding of the technology and use cases for prospective customer's satellites and Nanorack's satellite deployers that were used on the ISS."
+                }}
+            ]}
+        ]},
+    "skills" : {
+        "heading" : "",
+        "value" : [
+            {
+            "technical" : {
+                "heading" : "Technical skills",
+                "value" : ["Agile", "Scrum and Kanban Methodologies", "Product Strategy", "Go-To-Market Strategy", "Product Analytics", "UX", "Design", "Data Analysis", "Product Pricing", "Statistical Analysis"]
+            }},{
+            "soft" : {
+                "heading" : "Soft skills",
+                "value" : ["Problem Solving", "Leadership", "Teamwork", "Communication", "Organization", "Strategic Thinking", "Analytical Skills", "Customer Empathy", "Emotional Intelligence"]
+            }},{
+            "language" : {
+                "heading" : "Languages",
+                "value" : ["English", "C++", "Python", "JavaScript", "MatLab", "PL/SQL" , "HTML & CSS"]
+            }},{
+            "application" : {
+                "heading" : "Applications",
+                "value" : ["Microsoft Suite", "Google Suite", "Adobe Photoshop", "Lightroom", "Illustrator", "Google Analytics", "AdWords", "Tableau", "Salesforce", "Xcode", "TKGate", "VSCode", "Github", "Jira", "Confluence", "Trello", "Coda", "Airtable"]
+            }}
+        ]
+    },
+    "education" : {
+        "heading" : "Education",
+        "value" :{
+            "institution" : "Santa Clara University",
+            "graduation" : "Grad Date: June 2018",
+            "degree" : "B.S. in Computer Science Emphasis in Data Science"
+        }
+    }
+}
