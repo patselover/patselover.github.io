@@ -11,7 +11,6 @@ fetch('/assets/resume.json')
 
 function initialize(resume) {
     const resumeDisplay = document.querySelector('pre');
-    const resumeParse = JSON.parse(resume)
 
     updateDisplay();
 }
