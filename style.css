@@ -21,3 +21,22 @@ body, html{
 .navElement{
     padding: 8px, 16px, 8px, 16px;
 }
+
+h3.section-header{
+    text-align: center;
+}
+
+#navBar div{
+    position: relative;
+    display: inline-block;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#home{
+    background-image: url(/assets/background-image.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
