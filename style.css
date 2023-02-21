@@ -1,101 +1,1087 @@
-body, html{
-    background-color: #f1f1f1;
-    height: 100%;
+.mediaViewInfo {
+    --web-view-name: Vertical Scroll;
+    --web-view-id: Vertical_Scroll;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Vertical_Scroll;
+}
+* {
     margin: 0;
-    font-family: 'Roboto Light' , -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #fff;
-    font-size: 1em;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
 }
-
-#header-navBar{
-    position: sticky;
-    display: block;
-    width: 100%;
-    height: 2em;
-    top:0%;
-    left:0%;
-    text-align: right;
-    z-index: 100;
-    align-items: right;
+#Vertical_Scroll {
+    position: absolute;
+    display: none;
+    width: 1366px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Vertical Scroll;
+    --web-view-id: Vertical_Scroll;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
 }
-
-h3.section-header{
-    text-align: center;
+#Contact {
+    position: absolute;
+    width: 1366px;
+    height: 768px;
+    left: 0px;
+    top: 4327px;
+    overflow: visible;
 }
-
-#header-navBar div{
-    position: relative;
-    display: inline-block;
-    margin-left: 1em;
-    margin-right: 1em;
+#Contact_u {
+    fill: rgba(255,255,255,1);
 }
-
-#background-img{
-    background-image: url(/assets/background-image.jpg);
-    /* position: relative; */
-    /* opacity: 0.65; */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.Contact_u {
+    position: absolute;
+    overflow: visible;
+    width: 1366px;
+    height: 768px;
+    left: 0px;
+    top: 0px;
 }
-
-#container{
-    height: 100%;
+#Line_2 {
+    fill: transparent;
+    stroke: rgba(112,112,112,1);
+    stroke-width: 5px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
 }
-
-div .tile{
-    position: relative;
-    display: inline-block;
+.Line_2 {
+    overflow: visible;
+    position: absolute;
+    width: 5px;
+    height: 428px;
+    left: 683.5px;
+    top: 172.5px;
+    transform: matrix(1,0,0,1,0,0);
 }
-
-.image{
-    width: 50%;
-    height: 50%;
+#contact {
+    position: absolute;
+    width: 606px;
+    height: 365px;
+    left: 683px;
+    top: 202px;
+    overflow: visible;
+    padding: 32px;
 }
-
-#header-navBar a:link, a:hover, a:active{
-    font-weight: bold;
-    text-decoration: none;
-    color: #fff;
-    cursor: grab;
+#name {
+    position: absolute;
+    width: 416px;
+    height: 101px;
+    left: 32px;
+    top: 32px;
+    overflow: visible;
+    padding: 16px;
 }
-
-#header-navBar a:visited{
-    text-decoration: none;
-    color: #fff;
-}
-
-#footer{
-    position: -webkit-sticky;
-    position: sticky;
-    display: block;
-    filter: alpha(opacity=30);
-    -moz-opacity: 0.3;
-    opacity: 0.3;
-    width: 100%;
-    height: 1.2em;
-    bottom:0%;
-    left:0%;
-    text-align: center;
-    background-color: #ffffff;
-    box-shadow: 0 .1em #ebebeb;
-    z-index: 100;
+#Patrick_Selover {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 385px;
+    white-space: nowrap;
     text-align: left;
-    color: #000000;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 58px;
+    color: rgba(72,72,72,1);
 }
-
-#footer div{
-    display: inline-block;
-    position: relative;
-    font-size: .7em;
-    cursor: default;
-    margin-left: .5em;
+#sf {
+    position: absolute;
+    width: 418px;
+    height: 76px;
+    left: 34px;
+    top: 116px;
+    overflow: visible;
+    padding: 16px;
 }
-#footer #copyright{
-    font-size: .7em;
-    cursor: default;
-    margin-top: 0.5%;
-    margin-right: .5em;
-    float: right;
+#San_Francisco_Ca {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 387px;
+    height: 44px;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(112,112,112,1);
+}
+#linkedin {
+    position: absolute;
+    width: 540px;
+    height: 76px;
+    left: 34px;
+    top: 257px;
+    overflow: visible;
+    padding: 16px;
+}
+#linkedincominpatrickselover {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 509px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(112,112,112,1);
+}
+#hey {
+    position: absolute;
+    width: 382px;
+    height: 76px;
+    left: 34px;
+    top: 181px;
+    overflow: visible;
+    padding: 16px;
+}
+#patseloverheycom {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 351px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(112,112,112,1);
+}
+#Mask_Group_1 {
+    position: absolute;
+    width: 374px;
+    height: 374px;
+    left: 170.75px;
+    top: 197px;
+    overflow: visible;
+}
+#About {
+    position: absolute;
+    width: 1370.167px;
+    height: 3416px;
+    left: -4.167px;
+    top: 911px;
+    overflow: visible;
+    padding: 0px;
+}
+#about {
+    position: absolute;
+    width: 1370.167px;
+    height: 3416px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#aboutBackground {
+    fill: rgba(239,239,239,1);
+}
+.aboutBackground {
+    position: absolute;
+    overflow: visible;
+    width: 1370.167px;
+    height: 3416px;
+    left: 0px;
+    top: 0px;
+}
+#Work_History {
+    position: absolute;
+    width: 387px;
+    height: 77px;
+    left: 114px;
+    top: 372px;
+    overflow: visible;
+    padding: 16px;
+}
+#Work_History_ba {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 356px;
+    height: 45px;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    color: rgba(72,72,72,1);
+}
+#salesIntern {
+    position: absolute;
+    width: 713px;
+    height: 444px;
+    left: 605.167px;
+    top: 2902px;
+    overflow: visible;
+}
+#body {
+    position: absolute;
+    width: 709px;
+    height: 304px;
+    left: 4px;
+    top: 140px;
+    overflow: visible;
+    padding: 16px;
+}
+#Generated_and_qualified_hundre {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 678px;
+    height: 272px;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: rgba(72,72,72,1);
+}
+#time {
+    position: absolute;
+    width: 422px;
+    height: 70px;
+    left: 4px;
+    top: 70px;
+    overflow: visible;
+    padding: 16px;
+}
+#Jun_2015_-_Sept_2015 {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 391px;
+    height: 38px;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: rgba(72,72,72,1);
+}
+#title {
+    position: absolute;
+    width: 454px;
+    height: 70px;
+    left: 4px;
+    top: 0px;
+    overflow: visible;
+    padding: 16px;
+}
+#Business_Development_Intern {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 423px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(72,72,72,1);
+}
+#Line_1 {
+    fill: transparent;
+    stroke: rgba(72,72,72,1);
+    stroke-width: 4px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_1 {
+    overflow: visible;
+    position: absolute;
+    width: 12px;
+    height: 4px;
+    left: 0px;
+    top: 35px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#nanoracks {
+    position: absolute;
+    width: 251px;
+    height: 70px;
+    left: 354px;
+    top: 2902px;
+    overflow: visible;
+    padding: 16px;
+}
+#Nanoracks_LLC {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 220px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(72,72,72,1);
+}
+#engineeringIntern {
+    position: absolute;
+    width: 713px;
+    height: 546px;
+    left: 605.167px;
+    top: 2356px;
+    overflow: visible;
+}
+#body_bm {
+    position: absolute;
+    width: 709px;
+    height: 406px;
+    left: 4px;
+    top: 140px;
+    overflow: visible;
+    padding: 16px;
+}
+#Created_a_suite_of_data_visual {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 678px;
+    height: 374px;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: rgba(72,72,72,1);
+}
+#time_bo {
+    position: absolute;
+    width: 422px;
+    height: 70px;
+    left: 4px;
+    top: 70px;
+    overflow: visible;
+    padding: 16px;
+}
+#Jun_2017_-_Sept_2017 {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 391px;
+    height: 38px;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: rgba(72,72,72,1);
+}
+#title_bq {
+    position: absolute;
+    width: 595px;
+    height: 70px;
+    left: 4px;
+    top: 0px;
+    overflow: visible;
+    padding: 16px;
+}
+#Investment_Platform_Engineerin {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 564px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(72,72,72,1);
+}
+#Line_1_bs {
+    fill: transparent;
+    stroke: rgba(72,72,72,1);
+    stroke-width: 4px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_1_bs {
+    overflow: visible;
+    position: absolute;
+    width: 12px;
+    height: 4px;
+    left: 0px;
+    top: 35px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#AXA {
+    position: absolute;
+    width: 417px;
+    height: 70px;
+    left: 188px;
+    top: 2356px;
+    overflow: visible;
+    padding: 16px;
+}
+#AXA_Investment_Managers {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 386px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(72,72,72,1);
+}
+#associateProductManager {
+    position: absolute;
+    width: 713px;
+    height: 516px;
+    left: 601.167px;
+    top: 1840px;
+    overflow: visible;
+}
+#body_bw {
+    position: absolute;
+    width: 709px;
+    height: 236px;
+    left: 4px;
+    top: 280px;
+    overflow: visible;
+    padding: 16px;
+}
+#Participated_in_Workdays_Rotat {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 678px;
+    height: 204px;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: rgba(72,72,72,1);
+}
+#time_by {
+    position: absolute;
+    width: 422px;
+    height: 70px;
+    left: 4px;
+    top: 210px;
+    overflow: visible;
+    padding: 16px;
+}
+#Jul_2018_-_Nov_2019 {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 391px;
+    height: 38px;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: rgba(72,72,72,1);
+}
+#title_b {
+    position: absolute;
+    width: 432px;
+    height: 70px;
+    left: 4px;
+    top: 140px;
+    overflow: visible;
+    padding: 16px;
+}
+#Associate_Product_Manager {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 401px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(72,72,72,1);
+}
+#time_b {
+    position: absolute;
+    width: 422px;
+    height: 70px;
+    left: 4px;
+    top: 70px;
+    overflow: visible;
+    padding: 16px;
+}
+#Nov_2019_-_Nov_2020 {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 391px;
+    height: 38px;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: rgba(72,72,72,1);
+}
+#title_ca {
+    position: absolute;
+    width: 470px;
+    height: 70px;
+    left: 4px;
+    top: 0px;
+    overflow: visible;
+    padding: 16px;
+}
+#Sr_Associate_Product_Manager {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 439px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(72,72,72,1);
+}
+#Line_1_b {
+    fill: transparent;
+    stroke: rgba(72,72,72,1);
+    stroke-width: 4px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_1_b {
+    overflow: visible;
+    position: absolute;
+    width: 12px;
+    height: 4px;
+    left: 0px;
+    top: 35px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#productManager {
+    position: absolute;
+    width: 713px;
+    height: 648px;
+    left: 601.167px;
+    top: 1192px;
+    overflow: visible;
+}
+#body_b {
+    position: absolute;
+    width: 709px;
+    height: 508px;
+    left: 4px;
+    top: 140px;
+    overflow: visible;
+    padding: 16px;
+}
+#Led_a_technical_team_that_owne {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 678px;
+    height: 476px;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: rgba(72,72,72,1);
+}
+#time_ca {
+    position: absolute;
+    width: 422px;
+    height: 70px;
+    left: 4px;
+    top: 70px;
+    overflow: visible;
+    padding: 16px;
+}
+#Nov_2020_-_Nov_2022 {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 391px;
+    height: 38px;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: rgba(72,72,72,1);
+}
+#title_cc {
+    position: absolute;
+    width: 426px;
+    height: 70px;
+    left: 4px;
+    top: 0px;
+    overflow: visible;
+    padding: 16px;
+}
+#Technical_Product_Manager {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 395px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(72,72,72,1);
+}
+#Line_1_ce {
+    fill: transparent;
+    stroke: rgba(72,72,72,1);
+    stroke-width: 4px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_1_ce {
+    overflow: visible;
+    position: absolute;
+    width: 12px;
+    height: 4px;
+    left: 0px;
+    top: 35px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#srProductManager {
+    position: absolute;
+    width: 713px;
+    height: 818px;
+    left: 605.167px;
+    top: 374px;
+    overflow: visible;
+}
+#body_cg {
+    position: absolute;
+    width: 709px;
+    height: 678px;
+    left: 4px;
+    top: 140px;
+    overflow: visible;
+    padding: 16px;
+}
+#Lead_product_manager_for_Workd {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 678px;
+    height: 646px;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    color: rgba(72,72,72,1);
+}
+#time_ci {
+    position: absolute;
+    width: 319px;
+    height: 70px;
+    left: 4px;
+    top: 70px;
+    overflow: visible;
+    padding: 16px;
+}
+#Nov_2022_-_Present {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 288px;
+    height: 38px;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    color: rgba(72,72,72,1);
+}
+#title_ck {
+    position: absolute;
+    width: 382px;
+    height: 70px;
+    left: 4px;
+    top: 0px;
+    overflow: visible;
+    padding: 16px;
+}
+#Senior_Product_Manager {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 351px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(72,72,72,1);
+}
+#Line_1_cm {
+    fill: transparent;
+    stroke: rgba(72,72,72,1);
+    stroke-width: 4px;
+    stroke-linejoin: miter;
+    stroke-linecap: round;
+    stroke-miterlimit: 4;
+    shape-rendering: auto;
+}
+.Line_1_cm {
+    overflow: visible;
+    position: absolute;
+    width: 12px;
+    height: 4px;
+    left: 0px;
+    top: 35px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Workday {
+    position: absolute;
+    width: 160px;
+    height: 70px;
+    left: 449.167px;
+    top: 374px;
+    overflow: visible;
+    padding: 16px;
+}
+#Workday_co {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 129px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(72,72,72,1);
+}
+#summaryText {
+    position: absolute;
+    width: 865px;
+    height: 222px;
+    left: 449.167px;
+    top: 74px;
+    overflow: visible;
+    padding: 16px;
+}
+#Values-based_leader_and_proble {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 834px;
+    height: 190px;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    color: rgba(72,72,72,1);
+}
+#Summary {
+    position: absolute;
+    width: 387px;
+    height: 77px;
+    left: 114px;
+    top: 74px;
+    overflow: visible;
+    padding: 16px;
+}
+#Summary_cs {
+    left: 16px;
+    top: 16px;
+    position: absolute;
+    overflow: visible;
+    width: 356px;
+    height: 45px;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    color: rgba(72,72,72,1);
+}
+#Home {
+    position: absolute;
+    width: 1366px;
+    height: 911px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Home_cu {
+    position: absolute;
+    width: 1366px;
+    height: 911px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Header {
+    position: absolute;
+    width: 423px;
+    height: 195.5px;
+    left: 810.22px;
+    top: 390.5px;
+    overflow: visible;
+    padding: 32px;
+}
+#headerBackground {
+    fill: transparent;
+}
+.headerBackground {
+    position: absolute;
+    overflow: visible;
+    width: 423px;
+    height: 195.5px;
+    left: 0px;
+    top: 0px;
+}
+#Hi_Im_Patrick {
+    left: 32px;
+    top: 32px;
+    position: absolute;
+    overflow: visible;
+    width: 360px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 54px;
+    color: rgba(255,255,255,1);
+}
+#hey_cy {
+    position: absolute;
+    width: 238.22px;
+    height: 66px;
+    left: 152.78px;
+    top: 97.5px;
+    overflow: visible;
+}
+#heyHover {
+    fill: transparent;
+}
+.heyHover {
+    position: absolute;
+    overflow: visible;
+    width: 238.22px;
+    height: 66px;
+    left: 0px;
+    top: 0px;
+}
+#Group_17 {
+    position: absolute;
+    width: 206.22px;
+    height: 50px;
+    left: 16px;
+    top: 8px;
+    overflow: visible;
+}
+#chevron {
+    fill: rgba(255,255,255,1);
+}
+.chevron {
+    overflow: visible;
+    position: absolute;
+    width: 11.525px;
+    height: 21.455px;
+    left: 194.694px;
+    top: 13.773px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Text {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    overflow: visible;
+    width: 39px;
+    height: 50px;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(112,112,112,1);
+}
+#say_hey {
+    left: 45px;
+    top: 2px;
+    position: absolute;
+    overflow: visible;
+    width: 143px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: SF Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    color: rgba(255,255,255,1);
+}
+#Navigation {
+    position: absolute;
+    width: 329px;
+    height: 103px;
+    left: 1037px;
+    top: 0px;
+    overflow: visible;
+    padding: 32px;
+}
+#contact_c {
+    position: absolute;
+    width: 99px;
+    height: 39px;
+    left: 198px;
+    top: 32px;
+    overflow: visible;
+    padding: 8px 16px 8px 16px;
+}
+#contactHover {
+    fill: transparent;
+}
+.contactHover {
+    position: absolute;
+    overflow: visible;
+    width: 99px;
+    height: 39px;
+    left: 0px;
+    top: 0px;
+}
+#about_c {
+    left: 16px;
+    top: 8px;
+    position: absolute;
+    overflow: visible;
+    width: 68px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#about_da {
+    position: absolute;
+    width: 84px;
+    height: 39px;
+    left: 114px;
+    top: 32px;
+    overflow: visible;
+    padding: 8px 16px 8px 16px;
+}
+#aboutHover {
+    fill: transparent;
+}
+.aboutHover {
+    position: absolute;
+    overflow: visible;
+    width: 84px;
+    height: 39px;
+    left: 0px;
+    top: 0px;
+}
+#about_db {
+    left: 16px;
+    top: 8px;
+    position: absolute;
+    overflow: visible;
+    width: 53px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#home {
+    position: absolute;
+    width: 82px;
+    height: 39px;
+    left: 32px;
+    top: 32px;
+    overflow: visible;
+    padding: 8px 16px 8px 16px;
+}
+#homeHover {
+    fill: transparent;
+}
+.homeHover {
+    position: absolute;
+    overflow: visible;
+    width: 82px;
+    height: 39px;
+    left: 0px;
+    top: 0px;
+}
+#home_dd {
+    left: 16px;
+    top: 8px;
+    position: absolute;
+    overflow: visible;
+    width: 51px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Helvetica Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
 }
