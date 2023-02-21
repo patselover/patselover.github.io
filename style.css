@@ -7,6 +7,12 @@ body, html{
     font-size: 1em;
 }
 
+#header{
+    position: sticky;
+    display: block;
+    width: 100%;
+}
+
 #navBar{
     position: sticky;
     display: inline-block;
