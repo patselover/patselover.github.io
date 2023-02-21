@@ -40,3 +40,20 @@ h3.section-header{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#navBar a:link, a:visited{
+    font-weight: bold;
+    text-decoration: none;
+    color: #fff;
+    cursor: grab;
+}
+
+#navBar a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+#navBar a:active{
+    text-decoration: none;
+    color: #fff;
+}
