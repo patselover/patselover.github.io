@@ -9,7 +9,7 @@ body, html{
 
 #navBar{
     position: sticky;
-    display: block;
+    display: inline-block;
     padding: 32px;
     top:0%;
     left:0%;
@@ -18,19 +18,23 @@ body, html{
     align-items: right;
 }
 
-div .navElement{
+.navElement{
     padding: 8px, 16px, 8px, 16px;
 }
 
-h3.section-header{
-    text-align: center;
+.navElement a:link, a:visited{
+    text-decoration: none;
+    color: #fff;
 }
 
-#navBar div{
-    position: relative;
-    display: inline-block;
-    margin-left: 1em;
-    margin-right: 1em;
+.navElement a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.navElement a:active{
+    text-decoration: none;
+    color: #fff;
 }
 
 #home{
@@ -39,21 +43,4 @@ h3.section-header{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-#navBar a:link, a:visited{
-    font-weight: bold;
-    text-decoration: none;
-    color: #fff;
-    cursor: grab;
-}
-
-#navBar a:hover{
-    text-decoration: none;
-    color: #fff;
-}
-
-#navBar a:active{
-    text-decoration: none;
-    color: #fff;
 }
