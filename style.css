@@ -29,15 +29,19 @@ body, html{
 
 .navElement a:link, a:visited{
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 .navElement a:hover{
     text-decoration: none;
-    color: #fff;
+    color: #000;
 }
 
 .navElement a:active{
     text-decoration: none;
-    color: #fff;
+    color: #000;
+}
+
+#home{
+    background-image: "/assets/background-image.jpg";
 }
